@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Two positive numbers",
+      "setup": "",
+      "run": "clang++-5.0 -std=c++17 main.cpp -o main.exe; ./main.exe",
+      "input": "3 4",
+      "output": "12",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Two negative numbers",
+      "setup": "",
+      "run": "clang++-5.0 -std=c++17 main.cpp -o main.exe; ./main.exe",
+      "input": "-3 -4",
+      "output": "12",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
